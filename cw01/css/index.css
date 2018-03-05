@@ -1,0 +1,29 @@
+#container {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+#header {
+  background-color: #EEEEEE;
+  height: 200px;
+}
+
+#menu {
+  background-color: red;
+  width: 30%;
+  min-height: 300px;
+  float: left;
+}
+
+#content {
+  background-color: blue;
+  min-height: 300px;
+  width: 70%;
+  float: left;
+}
+
+#footer {
+  background-color: green;
+  height: 200px;
+  clear: left;
+}
