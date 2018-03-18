@@ -1,0 +1,56 @@
+#container {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+header {
+  background-color: #F00;
+  height: 200px;
+}
+
+nav {
+  background-color: #EEE;
+  width: 30%;
+  min-height: 300px;
+  float: left;
+}
+
+section.content {
+  background-color: white;
+  min-height: 300px;
+  width: 70%;
+  float: left;
+}
+
+footer {
+  background-color: green;
+  height: 180px;
+  clear: left;
+  padding: 10px;
+}
+
+nav li:nth-child(odd) a {
+  color: green;
+}
+
+nav li:nth-child(even) a {
+  color: red;
+}
+
+ul.horizontal {
+  list-style-type: none;
+  clear: left;
+}
+
+ul.horizontal li {
+  float: left;
+  margin: 0px 10px;
+}
+
+div.round-border {
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+}
